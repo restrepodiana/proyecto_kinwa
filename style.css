@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(252, 245, 211);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(texto);
+    line-height: 1.6;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+    display: block;
+}
+
+p {
+    margin-top: 0;
+}
+
+.header {
+    width: 100%;
+    min-height: 125px;
+    padding: 15px 3%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 18px;
+
+}
+
+nav a {
+    display: inline-block;
+    background-color: rgb(26, 92, 9);
+    color: rgb(238, 240, 244);
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 20px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+
+}
+
+
+.segunda-seccion {
+    padding: 35px 6%;
+}
+
+.segunda-seccion h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: rgb(26, 92, 9);
+}
+
+.segunda-seccion img {
+    width: 180px;
+    max-height: 220px;
+    object-fit: contain;
+    border-radius: 10px;
+
+}
+
+.segunda-seccion p {
+    max-width: 650px;
+
+}
+
+.Tercera-seccion {
+   display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 40px;
+}
+
+.Tercera-seccion img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin: 0 auto 10px;
+
+}
+
+.Tercera-seccion h2 {
+    margin: 8px 0;
+    color: rgb(26, 92, 9);
+}
+
+.Tercera-seccion p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.cuarta-seccion img {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+    margin: 0 auto 10px;
+}
+
+.cuarta-seccion {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 40px;
+
+}
+
+.cuarta-seccion p {
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.etiquetas-cuarta {
+    display: flex;
+    margin: 55px;
+    gap: 35px;
+
+}
+
+.fotos-presentaciones {
+
+    display: flex;
+    margin: 70px;
+    gap: 35px;
+}
+
+
+.cuarta-seccion h2 {
+    color: rgb(26, 92, 9);
+}
+
+.quinta-seccion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 6%;
+
+}
+
+.quinta-seccion img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 14px;
+}
+
+.quinta-seccion h2 {
+    color: rgb(26, 92, 9);
+
+}
+
+.quinta-seccion p {
+    max-width: 600px;
+
+}
+
+.testimonio-tar {
+    background-color: rgb(222, 193, 106);
+    padding: 20px;
+    border: 1px solid #c89837;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px;
+    max-width: 350px;
+    flex-wrap: wrap;
+
+}
+
+.contenedor-testimonio {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: auto;
+    padding: 0 90px;
+
+
+
+}
+
+.testimonio-tar p {
+    font-size: 14px;
+
+
+}
+
+.quinoa-pie img {
+    max-width: 150px;
+    height: auto;
+    display: block;
+
+}
+
+.redes-sociales img {
+    max-width: 150px;
+    height: auto;
+    display: block;
+
+}
+
+
+section.primera-img {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 117px;
+    position: relative;
+}
+
+img.mesita-img {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+}
+
+img.frutas-img {
+    width: 300px;
+    padding-bottom: 93px;
+}
+
+.btn-producto {
+    display: inline-block;
+    background-color: rgb(26, 92, 9);
+    color: rgb(238, 240, 244);
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 20px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.accion-boton {
+    display: flex;
+    margin-left: 60px;
+    margin-bottom: 35px;
+    align-items: flex-end;
+
+}
+
+.pie-pagina {
+    display: flex;
+    background-color: rgb(7, 59, 17);
+
+}
+footer img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+ 
+
+.redes-sociales img {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+    gap: 50px;
+    
+}
